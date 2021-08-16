@@ -1,0 +1,37 @@
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  display: grid;
+  place-items: center;
+}
+
+.img {
+  width: 600px;
+  height: 400px;
+}
+
+.quark {
+  width: 300px;
+  height: 200px;
+}
+
+.header {
+  color: white;
+  place-self: center;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.footer {
+  color: white;
+  place-self: center;
+}
+
+.nav {
+  color: white;
+  place-self: center center;
+}
